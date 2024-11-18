@@ -1,0 +1,35 @@
+/* Style général pour les tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style des cellules */
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style des en-têtes */
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Lignes alternées */
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Survol des lignes */
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    text-align: center;
+}
